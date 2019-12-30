@@ -1,0 +1,11 @@
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\obj\Debug\netstandard2.0\AccesoDatos.csprojAssemblyReference.cache
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\obj\Debug\netstandard2.0\AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\obj\Debug\netstandard2.0\AccesoDatos.AssemblyInfo.cs
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\bin\Debug\netstandard2.0\AccesoDatos.deps.json
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\bin\Debug\netstandard2.0\AccesoDatos.dll
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\bin\Debug\netstandard2.0\AccesoDatos.pdb
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\obj\Debug\netstandard2.0\AccesoDatos.csproj.CopyComplete
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\obj\Debug\netstandard2.0\AccesoDatos.dll
+C:\Users\saman\source\repos\sap_ventas\sap_examen\AccesoDatos\obj\Debug\netstandard2.0\AccesoDatos.pdb

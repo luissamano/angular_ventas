@@ -1,0 +1,8 @@
+C:\Users\saman\source\repos\sap_ventas\sap_examen\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\saman\source\repos\sap_ventas\sap_examen\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\saman\source\repos\sap_ventas\sap_examen\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\saman\source\repos\sap_ventas\sap_examen\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\saman\source\repos\sap_ventas\sap_examen\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\saman\source\repos\sap_ventas\sap_examen\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\saman\source\repos\sap_ventas\sap_examen\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\saman\source\repos\sap_ventas\sap_examen\Entities\obj\Debug\netstandard2.0\Entities.pdb
