@@ -6,7 +6,6 @@ using AccesoDatos;
 using Entities;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using AccesoDatos;
 
 namespace Api.Controllers
 {

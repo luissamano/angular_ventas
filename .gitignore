@@ -1,1 +1,3 @@
+# Se omiten las carpetas que autogenera Vusaul Studio Code
 .vs
+.vscode
