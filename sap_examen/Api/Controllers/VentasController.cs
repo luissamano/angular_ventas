@@ -22,11 +22,11 @@ namespace Api.Controllers
         }
 
         [HttpGet("detalle")]
-        public async Task<List<DetalleVenta>> GetVentaDetalle([FromBody] Venta venta)
+        public async Task<List<DetalleVenta>> GetVentaDetalle([FromBody] DetalleVenta detalleVenta)
         {
             var context = new AccesoVentas();
             
-            return await context.GetDetalleVenta(Id: venta.VentaId);            
+            return await context.GetDetalleVenta(detalleVenta.VentaId);   
         }
     }
 }

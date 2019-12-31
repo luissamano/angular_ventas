@@ -1,13 +1,14 @@
-using Entities;
+﻿using Entities;
+using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace AccesoDatos
 {
-    interface IAccesoArticulo
+    interface IAccesoArticulos
     {
         Task<List<Articulo>> GetArticulos();
-
         Task<Articulo> GetArticuloId(int Id);
     }
 }

@@ -1,9 +1,7 @@
 ﻿using Entities;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
-using System.Configuration;
 using System.Data;
 using System.Data.SqlClient;
 
@@ -33,7 +31,7 @@ namespace AccesoDatos
                                 Descripcion = reader.GetString(1),
                                 Fecha_hora = reader.GetDateTime(2),
                                 Total = reader.GetDecimal(3),
-                                Estatus = reader.GetInt32(4)
+                                Estatus = Convert.ToBoolean(reader.GetInt32(4))
 
                             };
                             ventas.Add(venta);
@@ -53,7 +51,7 @@ namespace AccesoDatos
                 using (SqlCommand cmd = new SqlCommand("spDetalleVenta", connection))
                 {
                     cmd.CommandType = CommandType.StoredProcedure;
-                    cmd.Parameters.Add(Id);
+                    cmd.Parameters.Add("@VentaId", SqlDbType.Int).Value = Id;
                     await connection.OpenAsync();
 
                     using (SqlDataReader reader = await cmd.ExecuteReaderAsync())
@@ -68,7 +66,7 @@ namespace AccesoDatos
                                 Precio = reader.GetDecimal(3),
                                 Fecha_hora = reader.GetDateTime(4),
                                 Total = reader.GetDecimal(5),
-                                Estatus = reader.GetBoolean(6)
+                                Estatus = Convert.ToBoolean(reader.GetInt32(6))
                             };
                             detalleVentas.Add(detalle);
                         }

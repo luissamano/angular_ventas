@@ -10,6 +10,6 @@ namespace Entities
         public string Descripcion { get; set; }
         public DateTime Fecha_hora { get; set; }
         public decimal Total { get; set; }
-        public int Estatus { get; set; }
+        public Boolean Estatus { get; set; }
     }
 }
